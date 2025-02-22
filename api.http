@@ -2,10 +2,23 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Joao Piologo",
-    "email": "joao.piologo@helisul.com"
+    "name": "Joao Tulio",
+    "email": "joao@helisul.com",
+    "referrer": "b24e5dec-e8c0-4f0e-b866-179903dbeada"
 }
 
 ###
 
-GET http://localhost:3333/invites/joao123
+GET http://localhost:3333/invites/b24e5dec-e8c0-4f0e-b866-179903dbeada
+
+###
+GET http://localhost:3333/subscribers/b24e5dec-e8c0-4f0e-b866-179903dbeada/ranking/clicks
+
+###
+GET http://localhost:3333/subscribers/b24e5dec-e8c0-4f0e-b866-179903dbeada/ranking/count
+
+###
+GET http://localhost:3333/subscribers/b24e5dec-e8c0-4f0e-b866-179903dbeada/ranking/position
+
+###
+GET http://localhost:3333/ranking
