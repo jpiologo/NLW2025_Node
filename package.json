@@ -19,6 +19,7 @@
     "fastify-type-provider-zod": "^4.0.2",
     "ioredis": "^5.5.0",
     "postgres": "^3.4.5",
+    "postgres-js": "^0.1.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {

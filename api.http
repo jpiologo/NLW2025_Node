@@ -5,3 +5,7 @@ Content-Type: application/json
     "name": "Joao Piologo",
     "email": "joao.piologo@helisul.com"
 }
+
+###
+
+GET http://localhost:3333/invites/joao123
